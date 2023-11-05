@@ -36,10 +36,10 @@ In this tutorial, we will create a Domain Controller VM and Client VM inside of 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Client VM"/>
+<img src="https://i.imgur.com/1B1At0i.png" height="80%" width="80%" alt="Client VM"/>
 </p>
 <p>
-Now that the domain controller has been deployed we will want to give Microsoft Azure and minute or two to finish creating the resources and then we will move on to creating the Client VM. To create the Client VM we will mimic the same process that we used to create the Domain Controller. We will head to the main virtual machine page and select "create". Once we are on the VM creation page we will select the same resource group that we used for the domain controller, in our case that would be AD-01. Next, we will need to give the VM a name and we will call ours Client-01. All of the other options will mimic what was chosen for the domain controller except for Image/OS, which will need to be Windows 10 Pro, version 22H2 - x64 Gen 2 and our username and password( if you decide to choose a different username and password). 
+Now that the domain controller has been deployed we will want to give Microsoft Azure and minute or two to finish creating the resources and then we will move on to creating the Client VM. To create the Client VM we will mimic the same process that we used to create the Domain Controller. We will head to the main virtual machine page and select "create". Once we are on the VM creation page we will select the same resource group that we used for the domain controller, in our case that would be AD-01. Next, we will need to give the VM a name and we will call ours Client-01. All of the other options will mimic what was chosen for the domain controller except for Image/OS, which will need to be Windows 10 Pro, version 22H2 - x64 Gen 2 and our username and password( if you decide to choose a different username and password). Once that is completed we want to click the networking tab to ensure that the Client VM is on the same virtual network as the Domain Controller. In our example our virtual network is called DC-1 -vnet, and the name of your virtual network should be whatever you named your domain controller -vnet. Once you have confirmed that the virtual network is the same, then click "Review + Create" and then "Create" on the next page to get your client VM spun up.
 </p>
 <br />
 
