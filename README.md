@@ -68,10 +68,10 @@ Now that we have officially remoted into our client VM, let's try pinging the Do
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yVFWoeg.png" height="80%" width="80%" alt="Microsoft Windows Defender"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To remote into the domain controller we will follow the same steps that we used for remoting in the Client VM. For Microsoft Remote Desktop and and Remote Desktop (Mac Version) you will need the public IP address( in our example it's 20.84.105.51) for the domain controller and the username and password to successfully log in. Once you are logged in search for Windows Defender Firewall in the search bar and open it up. Once the program is opened, click on "Inbound Rules". Then at the top of the screen, under View, click "Hide Console Tree" and also click "Hide Action Pane" to see more of the inbound rules. Next, sort the list by Protocol by clicking "Protocol" and scroll down to the ICMPv4 protocols. To allow the client's pings to come through, right-click both "Core Networking Diagnostics and select "Enable Rule". 
 </p>
 <br />
 
