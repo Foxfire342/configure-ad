@@ -52,7 +52,7 @@ Now that we have created both the Domain Controller and Client VM, we will want 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CLjtrS3.png" height="80%" width="80%" alt="Remote Into Client VM"/>
 </p>
 <p>
 Now that we have set the domain controller's IP address to static, we will need to test the connectivity between the client VM and the Domain VM. To do this we will use remote desktop to remote into the client VM to send a ping request to the domain controller. If the ping request is rejected then we will need to change the security settings in the Domain Controller to allow it to receive that traffic. To remote into the Client VM we will need to copy the public IP address ( this can be found by clicking the "virtual machine icon" and clicking the client VM and then it can be found near the right-hand side of the page) and paste it into Microsoft Remote Desktop, if you have Windows or Remote Desktop if you have a Mac. For Mac users after adding the PC to Remote Desktop, click on the added account and you will have to enter in your username and password that you created in the beginning for this VM. Click "Continue" and you will be logged into your client VM.
