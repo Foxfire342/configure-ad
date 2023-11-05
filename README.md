@@ -36,10 +36,10 @@ In this tutorial, we will create a Domain Controller VM and Client VM inside of 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Client VM"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now that the domain controller has been deployed we will want to give Microsoft Azure and minute or two to finish creating the resources and then we will move on to creating the Client VM. To create the Client VM we will mimic the same process that we used to create the Domain Controller. We will head to the main virtual machine page and select "create". Once we are on the VM creation page we will select the same resource group that we used for the domain controller, in our case that would be AD-01. Next, we will need to give the VM a name and we will call ours Client-01. All of the other options will mimic what was chosen for the domain controller except for Image/OS, which will need to be Windows 10 Pro, version 22H2 - x64 Gen 2 and our username and password( if you decide to choose a different username and password). 
 </p>
 <br />
 
