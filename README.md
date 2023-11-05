@@ -28,10 +28,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Domain Controller Setup"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this tutorial, we will create a Domain Controller VM and Client VM inside of Microsoft Azure, with the purpose of installing Active Directory to the Domain Controller and then connecting the client VM to the Domain Controller so that it can join the Domain. We will also be creating Active Directory accounts utilizing Windows Powershell. To get started, we will log in to our Microsoft Azure account ( please make sure you have your tenant and subscription set up) and start setting up our Domain Controller VM. To do this click the virtual machine icon on the first page and hit the blue "create" button on the next page and select Azure virtual machine. Once you are on the "Create a virtual machine" page you will need to select the following option, for Resource group you will need to create a new one and give it a name. This Resource group should be selected when you create your client VM next. We are going to call our Resource group AD-01 but you can call it whatever you would like. Next you need to give your virtual machine a name, in our case we will call it DC-1. Next, you will need to select your region, for example, if you live in California you would select US West. You can leave the defaults in for availability options, availability zone, and Security type. For Image/OS, we need to choose Windows Server 2022 Datacenter: Azure Edition - x64 Gen 2.
 </p>
 <br />
 
