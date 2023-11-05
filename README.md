@@ -60,10 +60,10 @@ Now that we have set the domain controller's IP address to static, we will need 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/oaa4fu1.png" height="80%" width="80%" alt="Pinging the Domain Controller"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now that we have officially remoted into our client VM, let's try pinging the Domain Controller. To do this we will need to open up Windows PowerShell which can be found by typing into the search bar. Once Powershell has launched we will type in ping -t along with the private IP address of the domain controller. To find the private IP address of the domain controller simply head to the virtual machine page in Azure and click the domain VM. The private IP will be listed on the very first page. After entering the command you will notice that the pings aren't being accepted by Domain Controller which means that we will have to remote into the DC to configure the firewall settings to allow ICMP traffic.
 </p>
 <br />
 
