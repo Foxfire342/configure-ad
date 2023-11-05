@@ -21,7 +21,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Create a Domain Controller Virtual Machine and Client Virtual Machine Inside of Microsoft Azure
-- Step 2
+- Change the Private IP Address settings for the Domain Controller to Static
 - Step 3
 - Step 4
 
@@ -47,7 +47,7 @@ Now that the domain controller has been deployed we will want to give Microsoft 
 <img src="https://i.imgur.com/8lkv8Hq.png" height="80%" width="80%" alt="Static IP Address"/>
 </p>
 <p>
-Now that we have created both the Domain Controller and Client VM, we will want to go into the domain controller's network interface and ensure that the IP address is changed to static instead of dynamic. When an IP address becomes static it never changes and you would want that for a server so that it is easily found on the network and it isn't constantly being changed ever so often by DHCP. To do this click virtual machines and then click the name of your domain controller and then click Networking under the Settings headline and then click Network Interface (in our case it is called dc-1958_z1). After clicking that you will be taken to the network interface page and you will click IP configurations under Settings. Click config at the bottom and next to the allocation option select "Static" instead of Dynamic and click save to have this change take effect.
+Now that we have created both the Domain Controller and Client VM, we will want to go into the domain controller's network interface and ensure that the IP address is changed to static instead of dynamic. When an IP address becomes static it never changes and you would want that for a server so that it is easily found on the network and it isn't constantly being changed ever so often by DHCP. To do this click "virtual machines" and then click the name of your domain controller and then click "Networking" under the Settings headline and then click the Network Interface (in our case it is called dc-1958_z1). After clicking that you will be taken to the network interface page and you will click "IP configurations" under Settings. Click config at the bottom and next to the allocation option select "Static" instead of Dynamic and click save to have this change take effect.
 </p>
 <br />
 
