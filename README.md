@@ -79,7 +79,7 @@ To remote into the domain controller we will follow the same steps that we used 
 <img src="https://i.imgur.com/AuEFMJK.png" height="80%" width="80%" alt="Recheck Ping At Client VM"/>
 </p>
 <p>
-Now that those ICMP rules have been enabled on the domain controller, let's shift back to the Client Remote Desktop and observe the change. As you can see the ping requests are no longer being rejected by the domain controller. 
+Now that those ICMP rules have been enabled on the domain controller, let's shift back to the Client VM and observe the change. As you can see the ping requests are no longer being rejected by the domain controller. 
 </p>
 <br />
 
