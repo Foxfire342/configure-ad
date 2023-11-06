@@ -87,15 +87,15 @@ Now that those ICMP rules have been enabled on the domain controller, let's shif
 <img src="https://i.imgur.com/XlShpn8.png" height="80%" width="80%" alt="Active Directory Installation"/>
 </p>
 <p>
- Next, let's install Active Directory onto our domain controller. To do this we will head to our domain controller virtual machine via remote desktop and click the "start" button and then click "Server Manager". Once we are in the Server Manager we will click "Add roles and features". You will click "Next" on the first three pages and then on the Server Roles page you will need to click "Active Directory Domain Services" and then click next at the bottom.
+ Next, let's install Active Directory onto our domain controller. To do this we will head to our domain controller virtual machine via remote desktop and click the "start" button and then click "Server Manager". Once we are in the Server Manager we will click "Add roles and features". You will click "Next" on the first three pages and then on the Server Roles page you will need to click "Active Directory Domain Services" and then click next at the bottom. You can click "Next" through the rest of the pages and click "Install" on the confirmation page. Once the installation is complete you can close out the install window.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NvpMJIk.png" height="80%" width="80%" alt="Creating The Domain Controller"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now that Active Directory has been officially installed we need to also make this Domain Controller an official domain controller. To do this click on the notification flag that appeared in your server manager after installing Active Directory. Then click "promote this server to a domain controller". In the deployment configuration window, click add a new forest on the first page and give it a root domain name. We will call our root domain "mydomain.com" but you can call yours whatever you would like. Click next and then create a password for the Directory Services Restore Mode ( we will not be using Restore Mode in this tutorial). Click Next for the next couple of panes and then click "Install" on the prereq page. Once the installation is done the Domain Controller will restart which will kick you out of your remote desktop instance. You will have to log into the remote instance again but with a slightly different username which will be explained in the next step.
 </p>
 <br />
 
