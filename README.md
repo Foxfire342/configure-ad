@@ -108,18 +108,18 @@ Now that Active Directory has been officially installed we need to also make thi
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Organizational Units"/>
+<img src="https://i.imgur.com/hWin4bK.png" height="80%" width="80%" alt="Organizational Units"/>
 </p>
 <p>
-Once you are back in the domain controller, head back into the server manager and then click "Tools" up top, and then select Active Directory Users and Computers. We will be setting up two organizational units in Active Directory called _EMPLOYEE and _ADMIN. 
+Once you are back in the domain controller, head back into the server manager and then click "Tools" up top, and then select Active Directory Users and Computers. We will be setting up two organizational units in Active Directory called _EMPLOYEES and _ADMIN. To do this right click mydomain.com(or whatever your root domain name is), select "New" and select organizational unit.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Creating A User"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, we will create a new user that we will use to log into the Domain Controller for the remainder of this tutorial. Foxfire342 is a nice name but it wouldn't realistically be our username at an organization in real life. 
 </p>
 <br />
 
