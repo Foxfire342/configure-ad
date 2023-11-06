@@ -111,15 +111,15 @@ Now that Active Directory has been officially installed we need to also make thi
 <img src="https://i.imgur.com/hWin4bK.png" height="80%" width="80%" alt="Organizational Units"/>
 </p>
 <p>
-Once you are back in the domain controller, head back into the server manager and then click "Tools" up top, and then select Active Directory Users and Computers. We will be setting up two organizational units in Active Directory called _EMPLOYEES and _ADMIN. To do this right click mydomain.com(or whatever your root domain name is), select "New" and select organizational unit.
+Once you are back in the domain controller, head back into the server manager and then click "Tools" up top, and then select Active Directory Users and Computers. We will be setting up two organizational units in Active Directory called _EMPLOYEES and _ADMIN. To do this right click mydomain.com(or whatever your root domain name is), select "New" and select organizational unit. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Creating A User"/>
+<img src="https://i.imgur.com/5DNibYA.png" height="80%" width="80%" alt="Creating A User"/>
 </p>
 <p>
-Next, we will create a new user that we will use to log into the Domain Controller for the remainder of this tutorial. Foxfire342 is a nice name but it wouldn't realistically be our username at an organization in real life. 
+Next, we will create a new user that we will use to log into the Domain Controller for the remainder of this tutorial. Foxfire342 is a nice name but it wouldn't realistically be our username at an organization in real life. In order to create a new user we will right click our _ADMIN OU and click "New" and then select "User". You can put in any name that you like but in the user logon name, you will want to put in the firstname_admin. In our example, we used the name brittny_admin. On the next page, you want to input a password for this new user and de-select "User must change password at next logon" and select "Password never expires". After that click finish on the next page and you will have created your first user in Active Directory.
 </p>
 <br />
 
