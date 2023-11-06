@@ -84,10 +84,10 @@ Now that those ICMP rules have been enabled on the domain controller, let's shif
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XlShpn8.png" height="80%" width="80%" alt="Active Directory Installation"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ Next, let's install Active Directory onto our domain controller. To do this we will head to our domain controller virtual machine via remote desktop and click the "start" button and then click "Server Manager". Once we are in the Server Manager we will click "Add roles and features". You will click "Next" on the first three pages and then on the Server Roles page you will need to click "Active Directory Domain Services" and then click next at the bottom.
 </p>
 <br />
 
