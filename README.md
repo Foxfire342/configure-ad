@@ -103,7 +103,31 @@ Now that Active Directory has been officially installed we need to also make thi
 <img src="https://i.imgur.com/BZJjW8v.png" height="80%" width="80%" alt="Login to Domain Controller"/>
 </p>
 <p>
-  To log into the domain controller remote desktop instance we can no longer use a regular username like before because now we have officially promoted our server to a domain controller. Instead, we must reference the rootdoman\username, so for us, it would be mydomain.com\Foxfire342. The password will be same with no changes.
+  To log into the domain controller remote desktop instance we can no longer use a regular username like before because now we have officially promoted our server to a domain controller. Instead, we must reference the rootdoman\username, so for us, it would be mydomain.com\Foxfire342. The password will be the same with no changes.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Organizational Units"/>
+</p>
+<p>
+Once you are back in the domain controller, head back into the server manager and then click "Tools" up top, and then select Active Directory Users and Computers. We will be setting up two organizational units in Active Directory called _EMPLOYEE and _ADMIN. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
