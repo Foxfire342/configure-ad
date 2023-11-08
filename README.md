@@ -119,15 +119,16 @@ Once you are back in the domain controller, head back into the server manager an
 <img src="https://i.imgur.com/5DNibYA.png" height="80%" width="80%" alt="Creating A User"/>
 </p>
 <p>
-Next, we will create a new user that we will use to log into the Domain Controller for the remainder of this tutorial. Foxfire342 is a nice name but it wouldn't realistically be our username at an organization in real life. In order to create a new user we will right click our _ADMIN OU and click "New" and then select "User". You can put in any name that you like but in the user logon name, you will want to put in the firstname_admin. In our example, we used the name brittny_admin. On the next page, you want to input a password for this new user and de-select "User must change password at next logon" and select "Password never expires". After that click finish on the next page and you will have created your first user in Active Directory.
+Next, we will create a new user that we will use to log into the Domain Controller for the remainder of this tutorial. Foxfire342 is a nice name but it wouldn't realistically be our username at an organization in real life. In order to create a new user we will right-click our _ADMIN OU and click "New" and then select "User". You can put in any name that you like but in the user logon name, you will want to put in the firstname_admin. In our example, we used the name brittny_admin. On the next page, you want to input a password for this new user and de-select "User must change password at next logon" and select "Password never expires". After that click finish on the next page and you will have created your first user in Active Directory.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XPp43Z9.png" height="80%" width="80%" alt="Adding User as an Admin"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now that we have created this user, we need to give the user Admin access because it is in the Admin folder. To do this we will right-click on the user and select "Properties".
+In the propertied window select the "Member Of" tab and click "add". Type in "Domain Admins" into the white space and click "Check Names". Once the name is underlined click ok, and then click "apply" in properties to save the changes. Now your user is officially a domain admin!
 </p>
 <br />
 
