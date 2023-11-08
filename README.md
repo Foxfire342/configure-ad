@@ -128,15 +128,15 @@ Next, we will create a new user that we will use to log into the Domain Controll
 </p>
 <p>
 Now that we have created this user, we need to give the user Admin access because it is in the Admin folder. To do this we will right-click on the user and select "Properties".
-In the propertied window select the "Member Of" tab and click "add". Type in "Domain Admins" into the white space and click "Check Names". Once the name is underlined click ok, and then click "apply" in properties to save the changes. Now your user is officially a domain admin!
+In the propertied window select the "Member Of" tab and click "add". Next type "Domain Admins" into the white space and click "Check Names". Once the name is underlined, click ok, and then click "apply" in properties to save the changes and then click ok. Now your user is officially a domain admin!
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VTACePT.png" height="80%" width="80%" alt="Logging in with the next user"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now that the user has been created and has admin access, let's login under this new account instead. To do this, disconnect from the domain controller remote instance and log back in as the new user. In our case, the new login username would be mydomain.com/brittny_admin. Once you are logged in under the new user, to verify that you are under that user account pull up the command prompt and type in whoami. You should see your username displayed in the response. 
 </p>
 <br />
 
