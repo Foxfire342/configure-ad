@@ -152,15 +152,15 @@ So now that we have created a user with admin access, we will want to connect ou
 <img src="https://i.imgur.com/te22hz4.png" height="80%" width="80%" alt="Change the DNS IP Address"/>
 </p>
 <p>
-In order to adjust the DNS setting for the client VM we will need to head back to the Microsoft Azure page and click the client VM. Next, click "Networking" under setting and then click the Network Interface. Then on the next page click "DNS Servers" under the settings header and then select "custom" and type in your domain controller's private IP address and click save at the top to save the changes. In our case, the private IP address is 10.0.0.4. Once this change is saved we will now be able to connect the client VM to the domain controller.
+In order to adjust the DNS setting for the client VM we will need to head back to the Microsoft Azure page and click the client VM. Next, click "Networking" under setting and then click the Network Interface. Then on the next page click "DNS Servers" under the settings header and then select "custom" and type in your domain controller's private IP address and click save at the top to save the changes. In our case, the private IP address is 10.0.0.4. Once this change is saved we will need to go back into the main client VM page and hit restart at the top of the page so that the DNS cache can be flushed. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3eeaq3Z.png" height="80%" width="80%" alt="Joining the Domain Controller"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now that the Client VM has been restarted so that the DNS changes can take effect we will log back into your Client VM remote instance and connect to the domain controller. To do this right-click the start button and click "System". Next, click "Rename this PC" and then click the "Change" button in the system properties window. Under Member of, select Domain and type in your root domain. In our example, our root domain would be mydomain.com. Click ok and you will be prompted to enter in a username and password that has permission to join this domain. In our previous steps, we already created a new user and so we will use this username and password to finish this connection. Click ok and then you you should see a window that pops up and says "Welcome to the {whatever your root domain name is} domain". Then you will have to restart your Client VM for the changes to take effect. 
 </p>
 <br />
 
