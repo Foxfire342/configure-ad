@@ -141,10 +141,10 @@ Now that the user has been created and has admin access, let's login under this 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3PD3JZo.png" height="80%" width="80%" alt="Connecting Client to Domain Controller"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+So now that we have created a user with admin access, we will want to connect our client VM to the domain controller. If we try to connect our client VM to our domain controller now, we will get an error message because the virtual network DNS server that the client VM uses will be unable to find the domain controller. To resolve this issue we will have to change the DNS server IP address to the IP address of the domain controller so that the client VM can join the domain. Above is an example of what will happen if you use the virtual network DNS server to try and find the domain controller. 
 </p>
 <br />
 
