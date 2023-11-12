@@ -23,7 +23,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create a Domain Controller Virtual Machine and Client Virtual Machine Inside of Microsoft Azure
 - Change the Private IP Address settings for the Domain Controller to Static
 - Join the Client VM To the Domain Controller
-- Step 4
+- Create Additional Active Directory Users using Powershell
 
 <h2>Deployment and Configuration Steps</h2>
 
