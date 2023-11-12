@@ -189,17 +189,11 @@ After running the script you should start seeing user accounts being created fro
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Bo3FFf5.png" height="80%" width="80%" alt="Final Step"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Once the users have finished populating in the _EMPLOYEE OU, pick a username to log in to the Client VM with. In our case, we will use the newly created user, jow.tas. After logging into the Client VM using the new user, open up the command prompt and confirm the host using the "hostname" command and the user using the "whoami" command. You should see similar results as shown in the screenshot above. 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+With this final step, this tutorial is now complete. Thank you for following along. 
 </p>
 <br />
