@@ -189,7 +189,7 @@ After running the script you should start seeing user accounts being created fro
 <br />
 
 <p>
-<img src="https://i.imgur.com/Bo3FFf5.png" height="80%" width="80%" alt="Final Step"/>
+<img src="https://i.imgur.com/Bo3FFf5.png" height="50%" width="50%" alt="Final Step"/>
 </p>
 <p>
 Once the users have finished populating in the _EMPLOYEE OU, pick a username to log in to the Client VM with. In our case, we will use the newly created user, jow.tas. After logging into the Client VM using the new user, open up the command prompt and confirm the host using the "hostname" command and the user using the "whoami" command. You should see similar results as shown in the screenshot above. 
