@@ -165,10 +165,10 @@ Now that the Client VM has been restarted so that the DNS changes can take effec
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Remote Desktop Setting"/>
+<img src="https://i.imgur.com/kSfuQUI.png" height="80%" width="80%" alt="Remote Desktop Setting"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ Now that the Client VM has restarted, let's log back into the remote desktop instance for the Client VM using the new username and password that we used to connect the Domain Controller and Client VM together. Once you are logged in we will need to change the system properties so that all domain users can login into the Client VM remotely instead of just admin users. To do this we would need to right-click the start menu, click "systems" and then click "Remote desktop" under related settings. Next, click " Select users that can remotely access this PC" under the User Accounts header and then click the "Add" button in the Remote Desktop Users window. In the white space type "Domain Users" to allow all users to access the Client VM remotely and then click "Check Names" and click ok and then click ok in the next window to save the changes.
 </p>
 <br />
 
