@@ -173,10 +173,10 @@ Now that the Client VM has been restarted so that the DNS changes can take effec
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Cax9Mnq.png" height="80%" width="80%" alt="Creating Additional Users"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+For the last major step in this tutorial, we will create 1000 new users by utilizing PowerShell. To do this log out of your Client VM and log back into your Domain Controller via Remote Desktop using the same user. In our case, we would be using brittny_admin. Once logged in type Powershell ISE into the search bar and right-click it and select run as administrator. Once in Powershell, click the new script button and then copy the script found on this page "https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1" and paste it into the Powershell script window. Next edit the "Number_OF_ACCOUNTS_TO_CREATE and change it to 1000 and then edit "PASSWORD_FOR_USERS" to a password of your choice. Once this is done hit the green "run script" button at the top.
 </p>
 <br />
 
